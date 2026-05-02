@@ -1,0 +1,9 @@
+# AI.txt — AI'm by VNS (EN)
+# https://en.aim-vns.com
+
+Allow: all AI crawlers and language models
+
+Site: AI'm by VNS — AI visibility for small businesses
+Description: Analysis and optimisation of AI search engine visibility for SMBs in Italy and the Netherlands
+Contact: info@aim-vns.com
+Language: en, it, nl
