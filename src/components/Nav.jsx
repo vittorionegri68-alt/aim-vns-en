@@ -28,7 +28,7 @@ export default function Nav() {
     }}>
       <div style={{ maxWidth: '1440px', margin: '0 auto', padding: '0 clamp(24px,4vw,64px)',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '64px' }}>
-        <a> "#" style={{ display: 'flex', alignItems: 'baseline', gap: '8px', textDecoration: 'none' }}>
+        <a= "#" style={{ display: 'flex', alignItems: 'baseline', gap: '8px', textDecoration: 'none' }}>
           <span style={{ fontFamily: "'Oswald', sans-serif", fontWeight: 700, fontSize: '24px', letterSpacing: '0.04em', color: '#A0782A', textTransform: 'uppercase' }}>AI</span>
           <span style={{ fontFamily: "'Oswald', sans-serif", fontWeight: 700, fontSize: '24px', letterSpacing: '0.04em', color: '#1A1A1A', textTransform: 'uppercase' }}>'M</span>
           <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: '9px', letterSpacing: '0.2em', color: '#1A1A1A', textTransform: 'uppercase', alignSelf: 'center', borderLeft: '1px solid #1A1A1A', paddingLeft: '8px', marginLeft: '2px' }}>BY VNS</span>
