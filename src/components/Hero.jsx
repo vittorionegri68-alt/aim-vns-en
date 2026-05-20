@@ -25,7 +25,7 @@ export default function Hero() {
             </p>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', alignItems: 'flex-end' }}>
-            <a href="#contact" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: '12px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#080808', background: '#A0782A', padding: '14px 28px', borderRadius: 0, transition: 'opacity 0.2s', textDecoration: 'none', whiteSpace: 'nowrap' }}
+            <a href="https://calendly.com/aim-vns-info/30min" target="_blank" rel="noopener" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: '12px', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#080808', background: '#A0782A', padding: '14px 28px', borderRadius: 0, transition: 'opacity 0.2s', textDecoration: 'none', whiteSpace: 'nowrap' }}
             onMouseEnter={e => e.currentTarget.style.opacity = '0.85'}
             onMouseLeave={e => e.currentTarget.style.opacity = '1'}
             >Analyse your visibility</a>
