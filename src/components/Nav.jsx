@@ -55,7 +55,7 @@ export default function Nav() {
             <span className="whatsapp-label">WhatsApp</span>
           </a>
 
-          <a href="#contact" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: '11px', letterSpacing: '0.12em', color: '#080808', textTransform: 'uppercase', background: '#A0782A', padding: '10px 20px', borderRadius: 0, transition: 'opacity 0.2s', textDecoration: 'none', whiteSpace: 'nowrap' }}
+          <a href="https://calendly.com/aim-vns-info/30min" target="_blank" rel="noopener" style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: '11px', letterSpacing: '0.12em', color: '#080808', textTransform: 'uppercase', background: '#A0782A', padding: '10px 20px', borderRadius: 0, transition: 'opacity 0.2s', textDecoration: 'none', whiteSpace: 'nowrap' }}
           onMouseEnter={e => e.currentTarget.style.opacity = '0.85'}
           onMouseLeave={e => e.currentTarget.style.opacity = '1'}
           >Free analysis</a>
