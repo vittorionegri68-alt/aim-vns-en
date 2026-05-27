@@ -5,6 +5,89 @@
 export const posts = [
 
 {
+  "id": "aim-2026-05-1-en",
+  "titolo": "How Small Businesses Can Be Found on ChatGPT: A Practical Guide to AI Visibility",
+  "data": "2026-05-27",
+  "categoria": "GEO/AEO",
+  "sommario": "ChatGPT and other AI search engines are changing how customers discover small businesses. This guide explains how to improve your digital visibility on AI systems without a marketing team, with actionable advice and recent data on AI adoption among SMBs.",
+  "contenuto": [
+    {
+      "tipo": "paragrafo",
+      "testo": "James runs a specialty coffee roastery in Utrecht. One morning, he noticed that four new wholesale inquiries came from companies that had asked ChatGPT for 'ethical coffee roasters in the Netherlands'. None of them had googled him or visited his website first: the AI simply recommended his business in its answer. How did that happen? And more importantly, how can other small businesses achieve the same result?"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "According to recent research, 79% of business decision-makers now use large language models (LLMs) like ChatGPT in their work, with adoption reaching 91% among medium-sized companies and 68% among sole traders. Users are no longer just creating content with AI: they're asking ChatGPT, Perplexity, and Gemini to recommend local services, trusted professionals, and niche suppliers. For small businesses without dedicated marketing teams, this shift represents both a major opportunity and a challenge."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "The good news? Being found on ChatGPT doesn't require advanced technical skills or big advertising budgets. What it does require is clear, well-structured, and accessible content. Let's break it down."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Why AI search engines work differently than Google"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Google gives you a list of links to choose from. ChatGPT, Perplexity, and Gemini read hundreds of sources and generate a direct answer, citing only the most relevant businesses or professionals. That's why AI visibility requires a different approach: it's not enough to appear in results, you need to be understood and considered authoritative by the system."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "AI search engines look for specific information: who you are, where you operate, what you offer, who you serve, and what problems you solve. If this information is missing or scattered across your site in confusing ways, the AI will simply ignore you and suggest a competitor instead."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Two practical tips to improve your AI visibility today"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "First tip: create an FAQ page with real questions from your customers. Use natural language and answer completely. For example, instead of 'We offer tax consulting', write 'We help small businesses and freelancers manage bookkeeping, prepare tax returns, and plan investments'. Well-written FAQs are LLMs' preferred format when answering specific questions."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Second tip: make sure your website always has up-to-date information about where you're located (city, area) and who you serve (industry, client type, geographic coverage). Add these details to your About page, Contact page, and service descriptions. GEO optimization tools reward geographic and sectoral clarity, exactly what ChatGPT uses to answer local queries like 'freelance graphic designer in Bologna' or 'plumber in Brooklyn'."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "GEO optimization: the new standard for digital visibility"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Generative Engine Optimization (GEO) is the evolution of traditional SEO applied to AI search engines. It's based on semantically rich content, structured markup (like schema.org), and consistency of information across all digital channels. Unlike SEO, which aims for ranking in results, GEO optimization aims to be cited in generated answers."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "For small businesses, this means: having a complete and updated Google Business Profile, publishing useful content (guides, case studies, tutorials), and using clear language that concretely describes what you do and for whom. A 2025 study by I-Com and TeamSystem showed that companies adopting AI technologies record average revenues 12% higher than those that don't: part of this advantage comes precisely from greater digital visibility across all channels, including AI search engines."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Measuring AI visibility without a marketing team"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Many small businesses wonder: how do I know if ChatGPT or Perplexity is recommending me? The answer is monitoring. Try it yourself by asking questions like your potential customers would: 'Which [your service] near [your city]?', or 'Who can help me with [problem you solve] in [area]?'. Note whether your name appears, in what context, and alongside which competitors."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "For a more structured analysis, services like AI'm by VNS allow you to systematically analyze your visibility on ChatGPT, Perplexity, and Gemini by simulating dozens of queries relevant to your sector and location. The system identifies where you're already visible, where you're missing information, and which content to improve to increase citations in the coming months. It's designed specifically for small businesses and professionals without in-house marketing teams."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Next steps"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "AI visibility isn't a passing trend: according to ISTAT data, AI adoption among Italian SMBs doubled in one year, and similar patterns are emerging across Europe and North America. For small businesses, this means customers will increasingly ask ChatGPT, Perplexity, or Gemini for recommendations before they even open Google."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Start today: update your About page with precise information about what you do, where, and for whom. Create or improve your FAQ section. Verify that your contact information is complete everywhere (website, Google Business, social media). These three steps take little time but make a big difference in being found by AI search engines. If you want to go deeper with an analysis of your current visibility on ChatGPT and other LLMs, discover how AI'm by VNS works at https://en.aim-vns.com."
+    }
+  ],
+  "attivo": true
+},
+
+{
   "id": "aim-2026-05-10-en",
   "titolo": "How Long Does GEO Optimization Take to Show Results? Real Timelines for Small Businesses",
   "data": "2026-05-18",
