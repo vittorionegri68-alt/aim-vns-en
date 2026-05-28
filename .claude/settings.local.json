@@ -11,7 +11,9 @@
       "Bash(git branch *)",
       "Bash(cp index-EN.html index.html)",
       "Bash(cp public/resources/index-EN.html public/resources/index.html)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }
