@@ -3,6 +3,72 @@
 // Update with N8N blog workflow after go-live
 
 export const posts = [
+  {
+  "id": "aim-2026-06-2-en",
+  "titolo": "How Professionals Can Get Found on Perplexity: A Practical GEO Guide",
+  "data": "2026-06-08",
+  "categoria": "GEO/AEO",
+  "sommario": "Small businesses and solo professionals can significantly improve their AI visibility by focusing on structured content, local optimization, and measurable case studies. This guide provides actionable GEO optimization strategies to be found on ChatGPT, Perplexity, and Gemini without needing a marketing team.",
+  "contenuto": [
+    {
+      "tipo": "paragrafo",
+      "testo": "Sarah, an independent business consultant in Amsterdam, published a detailed case study about helping a local retailer reduce customer inquiry response time by 40% using AI tools. Three weeks later, she started receiving inquiries from prospects who said they discovered her through Perplexity, which had cited her case study as a practical example of AI adoption in small retail businesses. What seemed like a simple blog post had become a powerful visibility asset on AI search engines."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "This scenario is increasingly common as AI-powered answer engines reshape how people find professionals and services. According to the 2025 OECD report, AI adoption among small businesses has jumped from 7.1% in 2023 to 17.4%, with 79% of business decision-makers now using AI tools professionally. As ChatGPT, Perplexity, and Gemini become primary research channels, understanding how to be found on ChatGPT and similar platforms is no longer optional for professionals seeking digital visibility."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "But what exactly do professionals need to do to appear on Perplexity? The answer combines quality content creation, technical optimization, and strategic local presence, all achievable without a dedicated marketing team."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Create Content with Measurable Results"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "AI search engines like Perplexity prioritize sources that provide concrete, verifiable information. For professionals and small businesses, this means publishing case studies and articles that include real numbers and outcomes. Research shows that 96% of small businesses using AI report significant time savings, with the average professional recovering over 5 hours per week. These specific metrics make content citation-worthy. When documenting your work, always include: the initial client challenge, the solution you implemented (specifying tools like ChatGPT, Perplexity, or Gemini), and quantifiable results (percentage improvements, hours saved, conversion increases, revenue impact). This approach serves two purposes: it helps potential clients understand your value proposition, and it creates material perfect for being referenced when AI engines answer queries about how small businesses are successfully implementing AI in your industry. The more specific and measurable your content, the more likely it becomes a trusted source for generative search results."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Implement Schema.org Structured Data"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "AI search engines process web content differently than humans do. To communicate clearly with these systems, implementing schema.org structured data in JSON-LD format is essential. This means embedding machine-readable information in your website code that describes who you are (using Organization or Person schema), what services you offer (Service schema), where you operate (LocalBusiness with address and coordinates), and what content you have published (Article and BlogPosting schemas). For a professional offering AI consulting to small businesses, including relevant terminology like AI visibility, GEO optimization, and AI search engines in your structured data helps algorithms understand exactly when you are relevant. Use the sameAs property to link your website to your LinkedIn profile, professional directories, and chamber of commerce listings: these connections strengthen your authority signals. AI'm by VNS analyzes precisely these technical elements when evaluating a professional's digital visibility on AI search engines, quickly identifying which structural components are missing or poorly configured."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Optimize for Local and Geographic Queries"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "When someone asks Perplexity 'find an AI consultant for small businesses in Seattle', the engine draws from multiple sources including Google Business profiles, local directories, and geotagged content. To be found on ChatGPT and other AI engines for local searches, focus on comprehensive GEO optimization. Start by optimizing your Google Business Profile with precise categories (e.g., 'Marketing Consultant', 'Business Consultant'), a description incorporating relevant keywords (AI, small businesses, generative AI, automation), professional photos, and regular posts. Ensure your NAP (Name, Address, Phone) is identical across all online listings and directories. Create dedicated pages on your website for local queries, such as 'AI Consulting for Small Businesses in [City]', with original content describing how you help local enterprises. Include local success stories and area-specific insights. This multi-channel approach exponentially increases the probability that AI engines will identify you as the relevant resource for your geographic area and specialty, especially important as AI visibility becomes increasingly competitive in professional services."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Make Your Site LLM-Accessible"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Technical accessibility for Large Language Models is a frequently overlooked aspect of AI visibility. Check that your robots.txt file does not block AI crawler user-agents (some sites inadvertently block GPTBot or similar crawlers). Structure your site with clean HTML, clear H1/H2 headings, and concise paragraphs: this organization helps models extract information accurately. Consider adopting an llms.txt file (analogous to robots.txt but specific for LLMs) to indicate which sections of your site can be freely used by AI engines and which are restricted. Keep content current and always include publication dates: algorithms favor recent sources, especially for rapidly evolving topics like AI adoption. Use clear entity references: repeatedly (but naturally) mention your business name, city, industry focus, and specific tools you work with. These technical considerations, while seeming like details, make the difference between being ignored or cited as a trusted source in AI-generated answers."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Monitor and Adapt Your Strategy"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Appearing on Perplexity and other AI search engines is not a one-time achievement. The digital visibility landscape evolves rapidly: new algorithms, new answer formats, new preferred sources. For professionals without marketing teams, manually monitoring this complexity is nearly impossible. Test regularly: search on Perplexity, ChatGPT, and Gemini for the queries where you want to be found (e.g., 'AI consultant for small businesses in [industry] in [city]') and verify whether you appear in results. Analyze which competitors get cited and study what they do differently. Update your content with new data, fresh case studies, and current statistics. With AI adoption among small businesses still at only 15 to 20% in most markets, there is enormous opportunity to position yourself as the local reference. AI'm by VNS automates exactly this continuous monitoring process, checking your visibility on ChatGPT, Perplexity, and Gemini and providing concrete guidance on how to improve it, without requiring advanced technical skills."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Getting started with AI visibility does not require large budgets or dedicated teams. It requires authentic content, correct technical structure, and consistent local presence. The professional who invests a few hours in these activities today will find themselves tomorrow in Sarah's position: cited, found, and contacted through channels that most competitors still ignore. To immediately verify how you are positioned on AI search engines and receive a detailed analysis, visit en.aim-vns.com and discover how AI'm by VNS can help you emerge in the new era of intelligent search."
+    }
+  ],
+  "attivo": true
+},
 
 {
   "id": "aim-2026-05-1-en",
