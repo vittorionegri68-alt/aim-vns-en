@@ -358,4 +358,23 @@ export const posts = [
     ],
     attivo: true,
   },
-]
+  {
+    id: "geo-audit-score-vs-real-visibility-2026",
+    titolo: "83/100 on the GEO audit. Zero mentions on Perplexity. What is actually missing.",
+    data: "2026-06-09",
+    categoria: "AI Visibility",
+    sommario: "A high GEO score does not mean AI engines will cite you. Real data from Casa Cavour: 83/100 on the technical audit, ranked first on ChatGPT, not found on Perplexity. Why a negative data point with a method is more useful than a green score without context.",
+    contenuto: [
+      { tipo: "paragrafo", testo: "A real case. A website gets analyzed by one of the automated GEO audit tools available online. Score: 83 out of 100. GEO-Ready, the report says. Solid technical structure, fresh content, schema markup in place. Everything green. Same week. Same business. Real sector queries on ChatGPT and Perplexity. On ChatGPT: ranked first. On Perplexity: nowhere to be found. Competitors with less optimized sites appear instead. The score was not wrong. It was incomplete." },
+      { tipo: "titoletto", testo: "What an automated audit measures" },
+      { tipo: "paragrafo", testo: "GEO analysis tools measure the technical readability of a website. They check whether AI crawlers can read the content, whether schema markup is present, whether the structure is semantically clear. That is useful work. It is the necessary precondition for being cited. It is not the citation itself. A website can be perfectly readable by AI models and still not be mentioned. Because models do not cite everything they can read. They cite what they recognize as relevant and authoritative for a specific query, consistently, over time." },
+      { tipo: "titoletto", testo: "The gap that scores do not show" },
+      { tipo: "paragrafo", testo: "Automated tools do not tell you which query they used to test your visibility. You do not know whether they searched for your brand name or a real transactional query. You do not know whether the test was repeated across multiple engines with the same questions. You do not know whether today result is stable or random. AI models are stochastic: the same query asked twice can return different results. A single measurement does not tell you whether you are visible. It only tells you that at that moment, with that query, on that engine, you were present or absent." },
+      { tipo: "titoletto", testo: "Real data, positive and negative" },
+      { tipo: "paragrafo", testo: "This is the case of Casa Cavour, a vacation rental in Bertinoro, Italy, that we have been working with since April 2026. Baseline April 2026: Perplexity 4.3 out of 10, Gemini 3.2 out of 10. Current status June 2026: ChatGPT ranked first for sector queries, Perplexity still the main weak point. I publish both data points. Not just the positive one. Because a negative data point is not something to hide. It is a precise work direction. We know exactly which engine does not cite Casa Cavour, on which queries, and why. We therefore know which content to produce, which structure to strengthen, which validated questions to add. A negative result with a method is more useful than a high score without context." },
+      { tipo: "titoletto", testo: "How the approach works" },
+      { tipo: "paragrafo", testo: "For each client we define a set of 10 validated questions, specific to their sector. Not generic questions: questions that real customers in that category ask ChatGPT, Perplexity and Gemini every day. The same 10 questions are used throughout the entire system: FAQPage schema on the site, Q&A page, blog, monitoring workflow. Consistency across these touchpoints is what builds stable citations over time. We measure the baseline before any intervention. We measure again after each optimization cycle. Results are public, verifiable by anyone, good or bad." },
+      { tipo: "link", testo: "mailto:info@aim-vns.com", etichetta: "Free analysis: write to info@aim-vns.com" },
+    ],
+    attivo: true,
+  },]
