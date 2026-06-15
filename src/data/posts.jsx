@@ -3,6 +3,76 @@
 // Update with N8N blog workflow after go-live
 
 export const posts = [
+{
+  "id": "aim-2026-06-2-en",
+  "titolo": "How to Appear on Perplexity: A Practical Guide for Professionals and Small Businesses",
+  "data": "2026-06-15",
+  "categoria": "GEO/AEO",
+  "sommario": "Perplexity is reshaping how clients find professionals. This guide explains what small businesses need to do to be found on Perplexity in 2026, with actionable GEO optimization strategies that work without a marketing team.",
+  "contenuto": [
+    {
+      "tipo": "paragrafo",
+      "testo": "Sarah runs a boutique law firm in Austin, Texas. Over the past six months, she noticed a shift: younger clients aren't Googling \"lawyer near me\" anymore. They're asking Perplexity: \"Best business attorney for tech startups in Austin\" or \"How to trademark a product name\". The problem? Her firm never shows up in the answers. Sarah doesn't have a marketing department, but she knows she needs to adapt before she becomes invisible to a whole generation of potential clients."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "While U.S. data mirrors European trends with growing AI adoption among SMBs, a 2025 study by the Italian Politecnico di Milano found that 76% of small and medium businesses still haven't invested in AI visibility strategies. Meanwhile, AI search engines like ChatGPT, Perplexity, and Gemini are fundamentally changing digital visibility. Professionals who don't adapt risk losing clients to competitors who understand how AI engines surface recommendations."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "This article breaks down exactly what professionals and small businesses must do to appear on Perplexity, with practical steps you can implement immediately, regardless of budget or technical expertise."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Why Perplexity Works Differently Than Google"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Perplexity doesn't return a list of blue links. It generates direct answers and cites sources. To be found on ChatGPT or Perplexity, you need GEO optimization (Generative Engine Optimization), which prioritizes structured, authoritative content that AI models can easily process. Google rewards backlinks and keyword density; Perplexity looks for clear, current, verifiable answers. For service professionals, this changes everything. A well-indexed website isn't enough anymore. You need content that directly answers real client questions in natural language."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Three Concrete Actions to Get on Perplexity"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "First action: build an FAQ page on your website with questions your clients actually ask. Use conversational language and complete answers (100-150 words each). Instead of \"Tax Services\", write \"How much does it cost to form an LLC in Texas in 2026?\" Perplexity rewards natural, specific content that matches how people search."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Second action: implement schema.org structured data on your site. Clearly mark who you are (LocalBusiness, ProfessionalService), what you do, where you operate, and your contact details. AI search engines read this data before visible text. If you're unsure how to implement it, tools like AI'm by VNS automatically analyze your digital presence and show exactly what's missing to be found on ChatGPT, Perplexity, and Gemini."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Third action: publish fresh content regularly. Perplexity favors recent sources. Even one article per month on topics relevant to your industry (regulatory changes, case studies, trends) significantly increases your citation chances. Always cite verifiable sources and include specific dates. AI engines reward accuracy above all."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Common Mistakes That Kill AI Visibility"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Many professionals assume they can copy-paste existing website content and sprinkle in keywords. Wrong. AI search engines look for original value, not repetition. Avoid thin pages (under 300 words), generic language like \"we provide quality services\", and outdated content. If your last update was in 2023, Perplexity considers you stale. Another critical mistake: ignoring external sources. If you're cited in industry publications, professional directories, or authoritative local sites, you dramatically increase the likelihood that Perplexity considers you trustworthy. AI visibility for small businesses isn't built on your website alone, but across your entire digital ecosystem."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Tracking Results Without a Marketing Team"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "How do you know if you're appearing on Perplexity? Run simulated searches: ask Perplexity the questions your clients would ask and check if you appear. Repeat every two weeks to track progress. Tools like AI'm by VNS automate this process, analyzing your visibility across ChatGPT, Perplexity, and Gemini, benchmarking against competitors, and suggesting concrete optimizations. The system is designed for businesses without in-house marketing teams who want measurable results without spending thousands on agencies."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Conclusion: AI Visibility as Competitive Advantage"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Being found on ChatGPT and Perplexity isn't a futuristic option anymore. It's a necessity for professionals and small businesses that want to stay competitive in 2026. The good news: you don't need massive budgets, just strategy and content designed for AI engines. Start with the three actions in this guide, monitor results, and adapt your approach. If you want an automated analysis of your digital visibility on AI search engines, discover how AI'm by VNS can help at en.aim-vns.com."
+    }
+  ],
+  "attivo": true
+},
   {
     id: "geo-audit-score-vs-real-visibility-2026",
     titolo: "83/100 on the GEO audit. Zero mentions on Perplexity. What is actually missing.",
