@@ -1,24 +1,24 @@
-// SitiWeb.jsx â AI'm by VNS EN
-// v1 â Custom design section with styles link and live portfolio
+// SitiWeb.jsx AI'm by VNS EN
+// v1 Custom design section with styles link and live portfolio
 import { useEffect, useRef } from 'react'
 
 const sitiLive = [
   {
-    label: 'Holiday home Â· 3 languages',
+    label: 'Holiday home. 3 languages',
     title: 'Casa Cavour',
     desc: 'Historic holiday home in Bertinoro, Italy. Available in Italian, English and Dutch with full AI optimisation.',
     url: 'https://www.casa-cavour.com',
     domain: 'casa-cavour.com',
   },
   {
-    label: 'Holiday apartment Â· 2 languages',
+    label: 'Holiday apartment. 2 languages',
     title: 'Garibaldina 75',
     desc: 'Apartment in Romagna. Available in Italian and English, built for AI search visibility.',
     url: 'https://garibaldina-75.romagna-affitti-brevi.it',
     domain: 'garibaldina-75.romagna-affitti-brevi.it',
   },
   {
-    label: 'Luxury loft Â· 2 languages',
+    label: 'Luxury loft. 2 languages',
     title: 'Samilla',
     desc: 'Luxury loft in Romagna. Refined design, premium positioning, two languages.',
     url: 'https://samilla.romagna-affitti-brevi.it',
@@ -161,7 +161,7 @@ export default function SitiWeb() {
               <div style={{
                 fontFamily: "'Inter', sans-serif", fontWeight: 700,
                 fontSize: '11px', color: '#A0782A', letterSpacing: '0.05em',
-              }}>{s.domain} â</div>
+              }}>{s.domain}</div>
             </a>
           ))}
         </div>
