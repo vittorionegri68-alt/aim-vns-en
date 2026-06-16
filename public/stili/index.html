@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Available styles — AI'm by VNS</title>
+  <meta name="description" content="18 website design styles. No templates: every site is built from scratch around the character of your business." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      background: #080808; color: #ffffff;
+      font-family: 'Inter', sans-serif; font-size: 16px;
+      line-height: 1.6; overflow-x: hidden;
+    }
+    .nav {
+      position: sticky; top: 0; z-index: 100;
+      background: #080808; border-bottom: 1px solid #141414;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 clamp(20px, 5vw, 80px); height: 64px;
+    }
+    .nav-logo { font-family: 'Oswald', sans-serif; font-size: 20px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; text-decoration: none; color: #ffffff; }
+    .nav-logo span { color: #A0782A; }
+    .nav-back { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #AAAAAA; text-decoration: none; transition: color 0.2s; }
+    .nav-back:hover { color: #ffffff; }
+    .hero { padding: clamp(48px, 8vw, 100px) clamp(20px, 5vw, 80px) clamp(40px, 6vw, 80px); border-bottom: 1px solid #141414; }
+    .hero-eyebrow { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.2em; color: #A0782A; margin-bottom: 20px; }
+    .hero-title { font-family: 'Oswald', sans-serif; font-size: clamp(36px, 6vw, 72px); font-weight: 700; text-transform: uppercase; line-height: 1.05; letter-spacing: 0.02em; margin-bottom: 24px; }
+    .hero-title span { color: #A0782A; }
+    .hero-desc { font-size: clamp(15px, 1.8vw, 18px); color: #AAAAAA; max-width: 640px; line-height: 1.7; margin-bottom: 32px; }
+    .notice { display: inline-flex; align-items: flex-start; gap: 12px; background: #0d0d0d; border: 1px solid #1A1A1A; border-left: 3px solid #A0782A; padding: 16px 20px; max-width: 640px; }
+    .notice-icon { font-size: 16px; flex-shrink: 0; margin-top: 2px; }
+    .notice-text { font-size: 13px; color: #AAAAAA; line-height: 1.6; }
+    .notice-text strong { color: #ffffff; font-weight: 700; }
+    .mockup-link-block { margin-top: 32px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+    .btn-primary { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #080808; background: #A0782A; padding: 14px 28px; text-decoration: none; display: inline-block; transition: opacity 0.2s; }
+    .btn-primary:hover { opacity: 0.85; }
+    .btn-note { font-size: 12px; color: #AAAAAA; }
+    .section-label { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.2em; color: #A0782A; padding: clamp(40px, 6vw, 72px) clamp(20px, 5vw, 80px) 0; margin-bottom: 32px; }
+    .grid { padding: 0 clamp(20px, 5vw, 80px) clamp(60px, 8vw, 100px); display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2px; }
+    .card { background: #0d0d0d; border: 1px solid #141414; overflow: hidden; display: flex; flex-direction: column; transition: border-color 0.2s; }
+    .card:hover { border-color: #A0782A; }
+    .card-img { width: 100%; aspect-ratio: 16/9; object-fit: cover; object-position: top; display: block; background: #1A1A1A; }
+    .card-img-placeholder { width: 100%; aspect-ratio: 16/9; background: #1A1A1A; display: flex; align-items: center; justify-content: center; font-family: 'Oswald', sans-serif; font-size: 48px; font-weight: 700; color: #2a2a2a; text-transform: uppercase; }
+    .card-body { padding: 20px 24px 24px; flex: 1; display: flex; flex-direction: column; }
+    .card-num { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.2em; color: #A0782A; margin-bottom: 6px; }
+    .card-name { font-family: 'Oswald', sans-serif; font-size: 20px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: #ffffff; margin-bottom: 10px; line-height: 1.2; }
+    .card-desc { font-size: 13px; color: #AAAAAA; line-height: 1.6; margin-bottom: 14px; flex: 1; }
+    .card-target { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #AAAAAA; border-top: 1px solid #141414; padding-top: 12px; }
+    .card-target span { color: #ffffff; font-weight: 400; text-transform: none; letter-spacing: 0; }
+    .live-section { padding: 0 clamp(20px, 5vw, 80px) clamp(60px, 8vw, 100px); border-top: 1px solid #141414; padding-top: clamp(40px, 6vw, 72px); }
+    .live-intro { max-width: 640px; margin-bottom: 40px; }
+    .live-intro h2 { font-family: 'Oswald', sans-serif; font-size: clamp(24px, 3vw, 36px); font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 12px; }
+    .live-intro h2 span { color: #A0782A; }
+    .live-intro p { font-size: 15px; color: #AAAAAA; line-height: 1.7; }
+    .live-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2px; }
+    .live-card { background: #0d0d0d; border: 1px solid #141414; padding: 24px; text-decoration: none; display: block; transition: border-color 0.2s; }
+    .live-card:hover { border-color: #A0782A; }
+    .live-card-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: #A0782A; margin-bottom: 8px; }
+    .live-card-title { font-family: 'Oswald', sans-serif; font-size: 20px; font-weight: 700; text-transform: uppercase; color: #ffffff; margin-bottom: 8px; }
+    .live-card-desc { font-size: 13px; color: #AAAAAA; line-height: 1.6; margin-bottom: 16px; }
+    .live-card-url { font-size: 12px; font-weight: 700; color: #A0782A; text-transform: lowercase; letter-spacing: 0.02em; }
+    .ig-note { margin-top: 40px; background: #0d0d0d; border: 1px solid #141414; border-left: 3px solid #A0782A; padding: 20px 24px; max-width: 560px; }
+    .ig-note-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: #A0782A; margin-bottom: 8px; }
+    .ig-note p { font-size: 13px; color: #AAAAAA; line-height: 1.6; }
+    .ig-note a { color: #ffffff; text-decoration: underline; text-underline-offset: 3px; }
+    .cta-section { background: #0d0d0d; border-top: 1px solid #141414; padding: clamp(48px, 7vw, 96px) clamp(20px, 5vw, 80px); text-align: center; }
+    .cta-section h2 { font-family: 'Oswald', sans-serif; font-size: clamp(28px, 4vw, 48px); font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 16px; }
+    .cta-section h2 span { color: #A0782A; }
+    .cta-section p { font-size: 15px; color: #AAAAAA; max-width: 480px; margin: 0 auto 32px; line-height: 1.7; }
+    .footer { border-top: 1px solid #141414; padding: 24px clamp(20px, 5vw, 80px); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+    .footer-brand { font-family: 'Oswald', sans-serif; font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #AAAAAA; }
+    .footer-brand span { color: #A0782A; }
+    .footer-links { display: flex; gap: 24px; }
+    .footer-links a { font-size: 12px; color: #AAAAAA; text-decoration: none; text-transform: uppercase; letter-spacing: 0.1em; transition: color 0.2s; }
+    .footer-links a:hover { color: #ffffff; }
+    @media (max-width: 600px) {
+      .grid { grid-template-columns: 1fr; }
+      .live-grid { grid-template-columns: 1fr; }
+      .mockup-link-block { flex-direction: column; align-items: flex-start; }
+      .footer { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="https://en.aim-vns.com" class="nav-logo"><span>AI'</span>M BY VNS</a>
+    <a href="https://en.aim-vns.com" class="nav-back">&#8592; Back to site</a>
+  </nav>
+
+  <section class="hero">
+    <p class="hero-eyebrow">Custom design</p>
+    <h1 class="hero-title">
+      No templates.<br>
+      <span>Every site</span> is unique.
+    </h1>
+    <p class="hero-desc">
+      We don't work with pre-made templates. Every site is built from scratch around the character of your business: palette, typography, structure, and content are chosen for you, not copied from an existing scheme.
+    </p>
+    <p class="hero-desc" style="margin-top: -12px;">
+      Below you'll find our 18 starting styles. These are visual reference points, not rigid molds: colours, fonts, and layout are fully customised during the onboarding phase.
+    </p>
+
+    <div class="notice">
+      <span class="notice-icon">🖥</span>
+      <p class="notice-text">
+        <strong>Best viewed on a desktop.</strong> The interactive mockups are designed for larger screens. The site we build for you will work perfectly on any device.
+      </p>
+    </div>
+
+    <div class="mockup-link-block">
+      <a href="https://en.aim-vns.com/mockups" class="btn-primary" target="_blank" rel="noopener">
+        Explore interactive mockups
+      </a>
+      <span class="btn-note">Open on desktop for best results</span>
+    </div>
+  </section>
+
+  <p class="section-label">18 styles available — fully customisable</p>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="/stili/img/01.png" alt="Style 01 High Performance Minimal" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">01</div>
+      <div class="card-body">
+        <p class="card-num">Style 01</p>
+        <h2 class="card-name">High Performance Minimal</h2>
+        <p class="card-desc">Dashboard-style layout with data front and centre. Clean, authoritative, performance-oriented.</p>
+        <p class="card-target">Best for: <span>SaaS, digital agencies, B2B consulting, tech</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/02.png" alt="Style 02 Minimal Luxury Editorial" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">02</div>
+      <div class="card-body">
+        <p class="card-num">Style 02</p>
+        <h2 class="card-name">Minimal Luxury Editorial</h2>
+        <p class="card-desc">Elegance without excess. White space, refined typography, luxury magazine atmosphere.</p>
+        <p class="card-target">Best for: <span>Boutique hotels, jewellery, high-end fashion, luxury real estate</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/03.png" alt="Style 03 Brutalist" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">03</div>
+      <div class="card-body">
+        <p class="card-num">Style 03</p>
+        <h2 class="card-name">Brutalist</h2>
+        <p class="card-desc">Strong visual identity, sharp contrasts, no aesthetic compromise. For brands that demand to be remembered.</p>
+        <p class="card-target">Best for: <span>Creative studios, digital agencies, photographers, streetwear brands</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/04.png" alt="Style 04 Mediterranean Warmth" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">04</div>
+      <div class="card-body">
+        <p class="card-num">Style 04</p>
+        <h2 class="card-name">Mediterranean Warmth</h2>
+        <p class="card-desc">Mediterranean warmth, natural materials, slow rhythm. Built for food, wine, and slow tourism.</p>
+        <p class="card-target">Best for: <span>Agriturismos, restaurants, farm stays, experiential tourism</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/05.png" alt="Style 05 Boutique Bold" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">05</div>
+      <div class="card-body">
+        <p class="card-num">Style 05</p>
+        <h2 class="card-name">Boutique Bold</h2>
+        <p class="card-desc">Two-tone contrast, immediate visual impact. Grabs attention without asking permission.</p>
+        <p class="card-target">Best for: <span>Hair salons, barbers, boutique gyms, urban fashion</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/06.png" alt="Style 06 Editorial" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">06</div>
+      <div class="card-body">
+        <p class="card-num">Style 06</p>
+        <h2 class="card-name">Editorial</h2>
+        <p class="card-desc">Professional advertorial layout. Authority, readability, and immediate trust.</p>
+        <p class="card-target">Best for: <span>Lawyers, accountants, consultants, professional firms</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/07.png" alt="Style 07 Nature Escape" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">07</div>
+      <div class="card-body">
+        <p class="card-num">Style 07</p>
+        <h2 class="card-name">Nature Escape</h2>
+        <p class="card-desc">Green, breathing room, connection with nature. Evokes escape, silence, and authenticity.</p>
+        <p class="card-target">Best for: <span>Wellness retreats, glamping, outdoor activities, yoga</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/08.png" alt="Style 08 Italian Heritage" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">08</div>
+      <div class="card-body">
+        <p class="card-num">Style 08</p>
+        <h2 class="card-name">Italian Heritage</h2>
+        <p class="card-desc">Craftsmanship, history, material. For those who have something to pass on, not just sell.</p>
+        <p class="card-target">Best for: <span>Artisan crafts, historic workshops, DOP/IGP products, antiques</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/09.png" alt="Style 09 Digital Nomad Friendly" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">09</div>
+      <div class="card-body">
+        <p class="card-num">Style 09</p>
+        <h2 class="card-name">Digital Nomad Friendly</h2>
+        <p class="card-desc">Functional, modern, built for the connected life. Clear information, frictionless booking.</p>
+        <p class="card-target">Best for: <span>Co-living, co-working, remote worker accommodation</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/10.png" alt="Style 10 Family-Friendly Comfort" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">10</div>
+      <div class="card-body">
+        <p class="card-num">Style 10</p>
+        <h2 class="card-name">Family-Friendly Comfort</h2>
+        <p class="card-desc">Warm, welcoming, reassuring. Communicates safety and care for families travelling together.</p>
+        <p class="card-target">Best for: <span>Family B&Bs, holiday homes, parks, farm stays</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/11.png" alt="Style 11 High-End Modern Retreat" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">11</div>
+      <div class="card-body">
+        <p class="card-num">Style 11</p>
+        <h2 class="card-name">High-End Modern Retreat</h2>
+        <p class="card-desc">Contemporary luxury, refined details, quiet exclusivity. It doesn't shout, it whispers.</p>
+        <p class="card-target">Best for: <span>Luxury villas, private spas, design hotels, exclusive retreats</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/12.png" alt="Style 12 Organic" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">12</div>
+      <div class="card-body">
+        <p class="card-num">Style 12</p>
+        <h2 class="card-name">Organic</h2>
+        <p class="card-desc">Earth, organic, mindfulness. An aesthetic consistent with the values of those who choose it.</p>
+        <p class="card-target">Best for: <span>Organic producers, herbalists, yoga retreats, zero-waste shops</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/13.png" alt="Style 13 Azure Lido" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">13</div>
+      <div class="card-body">
+        <p class="card-num">Style 13</p>
+        <h2 class="card-name">Azure Lido</h2>
+        <p class="card-desc">Sea, sun, lightness. Evokes holiday without falling into the cliché of sand and waves.</p>
+        <p class="card-target">Best for: <span>Beach clubs, coastal tourism, boat hire</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/14.png" alt="Style 14 Earth Rustic" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">14</div>
+      <div class="card-body">
+        <p class="card-num">Style 14</p>
+        <h2 class="card-name">Earth Rustic</h2>
+        <p class="card-desc">Earth, wine, roots. Communicates territory with dignity, without rural cliché.</p>
+        <p class="card-target">Best for: <span>Wineries, olive oil producers, rural estates</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/15.png" alt="Style 15 Risograph" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">15</div>
+      <div class="card-body">
+        <p class="card-num">Style 15</p>
+        <h2 class="card-name">Risograph</h2>
+        <p class="card-desc">Alternative print, indie culture, authentic character. For those who refuse digital uniformity.</p>
+        <p class="card-target">Best for: <span>Craft breweries, coffee shops, vinyl stores, independent brands</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/16.png" alt="Style 16 Kinetic" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">16</div>
+      <div class="card-body">
+        <p class="card-num">Style 16</p>
+        <h2 class="card-name">Kinetic</h2>
+        <p class="card-desc">Energy, movement, precision. Communicates speed and professionalism in sport and visual media.</p>
+        <p class="card-target">Best for: <span>Photographers, gyms, event agencies, personal trainers</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/17.png" alt="Style 17 Cinematic Scroll" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">17</div>
+      <div class="card-body">
+        <p class="card-num">Style 17</p>
+        <h2 class="card-name">Cinematic Scroll</h2>
+        <p class="card-desc">Cinematic scrolling, immersive atmosphere. The browsing experience becomes part of the product.</p>
+        <p class="card-target">Best for: <span>Premium resorts, immersive experiences, luxury lifestyle brands</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/stili/img/bauhaus.png" alt="Style Extra Bauhaus" class="card-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="card-img-placeholder" style="display:none;">★</div>
+      <div class="card-body">
+        <p class="card-num">Extra Style</p>
+        <h2 class="card-name">Bauhaus</h2>
+        <p class="card-desc">Pure geometry, form follows function. An advanced style for those who know what they want and embrace reduced readability.</p>
+        <p class="card-target">Best for: <span>Architecture studios, art galleries, designers, typographers</span></p>
+      </div>
+    </div>
+
+  </div>
+
+  <section class="live-section">
+    <div class="live-intro">
+      <h2>Sites <span>already live</span></h2>
+      <p>Not mockups: real sites, built with the same system, visible live. Every site was designed specifically for the business it represents.</p>
+    </div>
+
+    <div class="live-grid">
+      <a href="https://www.casa-cavour.com" class="live-card" target="_blank" rel="noopener">
+        <p class="live-card-label">Holiday home · 3 languages</p>
+        <p class="live-card-title">Casa Cavour</p>
+        <p class="live-card-desc">Historic holiday home in Bertinoro, Italy. Available in Italian, English, and Dutch with full AI optimisation.</p>
+        <p class="live-card-url">casa-cavour.com ↗</p>
+      </a>
+      <a href="https://garibaldina-75.romagna-affitti-brevi.it" class="live-card" target="_blank" rel="noopener">
+        <p class="live-card-label">Holiday apartment · 2 languages</p>
+        <p class="live-card-title">Garibaldina 75</p>
+        <p class="live-card-desc">Apartment in Romagna. Available in Italian and English, built for AI search visibility.</p>
+        <p class="live-card-url">garibaldina-75.romagna-affitti-brevi.it ↗</p>
+      </a>
+      <a href="https://samilla.romagna-affitti-brevi.it" class="live-card" target="_blank" rel="noopener">
+        <p class="live-card-label">Luxury loft · 2 languages</p>
+        <p class="live-card-title">Samilla</p>
+        <p class="live-card-desc">Luxury loft in Romagna. Refined design, premium positioning, two languages.</p>
+        <p class="live-card-url">samilla.romagna-affitti-brevi.it ↗</p>
+      </a>
+    </div>
+
+    <div class="ig-note">
+      <p class="ig-note-label">Additional service</p>
+      <p>We also build landing pages for Instagram profiles, optimised for social-to-booking conversion. <a href="https://links.casa-cavour.com" target="_blank" rel="noopener">See a live example</a>.</p>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <h2>Ready to choose<br><span>your style?</span></h2>
+    <p>Let's talk: in 30 minutes we'll find the right visual direction for your business together.</p>
+    <a href="https://en.aim-vns.com/#contact" class="btn-primary">Book a free call</a>
+  </section>
+
+  <footer class="footer">
+    <span class="footer-brand"><span>AI'</span>M BY VNS</span>
+    <nav class="footer-links">
+      <a href="https://en.aim-vns.com">Home</a>
+      <a href="https://en.aim-vns.com/resources">Resources</a>
+      <a href="https://en.aim-vns.com/privacy.html">Privacy</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
