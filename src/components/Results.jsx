@@ -81,7 +81,7 @@ export default function Results() {
             <span style={{ color: '#A0782A' }}>IS A MAP.</span>
           </h2>
           <p style={{ fontFamily: "'Inter', sans-serif", fontSize: 'clamp(13px,1vw,15px)',
-            color: '#444', lineHeight: 1.7, marginTop: '1.5rem', maxWidth: '560px' }}>
+            color: '#AAAAAA', lineHeight: 1.7, marginTop: '1.5rem', maxWidth: '560px' }}>
             {"Many businesses we analyse start with a low score. That is not bad news: it means we know exactly where to act. The worst thing is not having a low score. It is not knowing that you have one."}
           </p>
         </div>
