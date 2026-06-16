@@ -37,7 +37,7 @@ export default function Contact() {
               <span style={{ color: '#A0782A' }}>YOU STAND.</span>
             </h2>
             <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '15px',
-              color: '#555', lineHeight: 1.7, marginBottom: '2.5rem', maxWidth: '360px' }}>
+              color: '#AAAAAA', lineHeight: 1.7, marginBottom: '2.5rem', maxWidth: '360px' }}>
               The first analysis is free and without commitment.
               We tell you how visible you are on ChatGPT right now,
               in plain English and without any technical jargon.
@@ -73,7 +73,7 @@ export default function Contact() {
                 </svg>
                 <div>
                   <div style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700,
-                    fontSize: '11px', color: '#555', letterSpacing: '0.15em',
+                    fontSize: '11px', color: '#AAAAAA', letterSpacing: '0.15em',
                     textTransform: 'uppercase', marginBottom: '2px' }}>Email</div>
                   <div style={{ fontFamily: "'Inter', sans-serif", fontSize: '14px',
                     color: '#888' }}>{config.brand.email}</div>
@@ -91,7 +91,7 @@ export default function Contact() {
                 </svg>
                 <div>
                   <div style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700,
-                    fontSize: '11px', color: '#555', letterSpacing: '0.15em',
+                    fontSize: '11px', color: '#AAAAAA', letterSpacing: '0.15em',
                     textTransform: 'uppercase', marginBottom: '2px' }}>LinkedIn</div>
                   <div style={{ fontFamily: "'Inter', sans-serif", fontSize: '14px',
                     color: '#888' }}>AI'm by VNS</div>
@@ -106,7 +106,7 @@ export default function Contact() {
                 <div style={{ fontFamily: "'Oswald', sans-serif", fontWeight: 700,
                   fontSize: '32px', color: '#A0782A', textTransform: 'uppercase',
                   letterSpacing: '0.02em', marginBottom: '1rem' }}>Message received</div>
-                <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '14px', color: '#555' }}>
+                <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '14px', color: '#AAAAAA' }}>
                   We will get back to you within 48 hours. No jargon, just a simple conversation.
                 </p>
               </div>

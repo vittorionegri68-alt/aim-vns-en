@@ -1,4 +1,4 @@
-// Nav.jsx — AI'm by VNS EN
+﻿// Nav.jsx — AI'm by VNS EN
 import { useState, useEffect } from 'react'
 import { config } from '../config.js'
 
@@ -36,7 +36,7 @@ export default function Nav() {
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '32px' }} className="nav-links-desktop">
           {links.map(l => (
-            <a key={l.href} href={l.href} style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: '11px', letterSpacing: '0.15em', color: '#555', textTransform: 'uppercase', transition: 'color 0.2s' }}
+            <a key={l.href} href={l.href} style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: '11px', letterSpacing: '0.15em', color: '#AAAAAA', textTransform: 'uppercase', transition: 'color 0.2s' }}
             onMouseEnter={e => e.target.style.color = '#fff'}
             onMouseLeave={e => e.target.style.color = '#555'}
             >{l.label}</a>
@@ -46,7 +46,7 @@ export default function Nav() {
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
           <a href={config.brand.whatsapp} target="_blank" rel="noopener noreferrer"
             title="Message us on WhatsApp"
-            style={{ display: 'flex', alignItems: 'center', gap: '6px', fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: '11px', letterSpacing: '0.1em', color: '#555', textTransform: 'uppercase', transition: 'color 0.2s', textDecoration: 'none' }}
+            style={{ display: 'flex', alignItems: 'center', gap: '6px', fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: '11px', letterSpacing: '0.1em', color: '#AAAAAA', textTransform: 'uppercase', transition: 'color 0.2s', textDecoration: 'none' }}
             onMouseEnter={e => e.currentTarget.style.color = '#25D366'}
             onMouseLeave={e => e.currentTarget.style.color = '#555'}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
