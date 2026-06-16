@@ -145,7 +145,7 @@ export default function Services() {
             </div>
           ))}
         </div>
-        <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '11px', color: '#333',
+        <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '11px', color: '#AAAAAA',
           letterSpacing: '0.1em', textTransform: 'uppercase', marginTop: '1.5rem', textAlign: 'center' }}>
           All prices exclude VAT · Additional language 100 EUR · Minimum 12 months for Growth and Pro
         </p>

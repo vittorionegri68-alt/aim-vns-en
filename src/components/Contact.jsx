@@ -115,7 +115,7 @@ export default function Contact() {
                 style={{ display: 'flex', flexDirection: 'column', gap: '1px', background: '#141414' }}>
                 <div style={{ background: '#0a0a0a', padding: '28px 28px 20px' }}>
                   <label style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700,
-                    fontSize: '10px', color: '#333', letterSpacing: '0.2em',
+                    fontSize: '10px', color: '#AAAAAA', letterSpacing: '0.2em',
                     textTransform: 'uppercase', display: 'block', marginBottom: '8px' }}>Name</label>
                   <input name="nome" value={form.nome} onChange={handleChange}
                     required placeholder="Your name" style={inputStyle}
@@ -124,7 +124,7 @@ export default function Contact() {
                 </div>
                 <div style={{ background: '#0a0a0a', padding: '20px 28px' }}>
                   <label style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700,
-                    fontSize: '10px', color: '#333', letterSpacing: '0.2em',
+                    fontSize: '10px', color: '#AAAAAA', letterSpacing: '0.2em',
                     textTransform: 'uppercase', display: 'block', marginBottom: '8px' }}>Email</label>
                   <input name="email" type="email" value={form.email} onChange={handleChange}
                     required placeholder="your@email.com" style={inputStyle}
@@ -133,7 +133,7 @@ export default function Contact() {
                 </div>
                 <div style={{ background: '#0a0a0a', padding: '20px 28px' }}>
                   <label style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700,
-                    fontSize: '10px', color: '#333', letterSpacing: '0.2em',
+                    fontSize: '10px', color: '#AAAAAA', letterSpacing: '0.2em',
                     textTransform: 'uppercase', display: 'block', marginBottom: '8px' }}>Message</label>
                   <textarea name="messaggio" value={form.messaggio} onChange={handleChange}
                     required placeholder="Tell us about your business and what you would like to improve. No technical terms needed."
@@ -153,7 +153,7 @@ export default function Contact() {
                   onMouseLeave={e => e.currentTarget.style.opacity = '1'}
                   >Send message →</button>
                   <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '10px',
-                    color: '#333', letterSpacing: '0.1em', textTransform: 'uppercase',
+                    color: '#AAAAAA', letterSpacing: '0.1em', textTransform: 'uppercase',
                     marginTop: '12px', textAlign: 'center' }}>
                     Reply within 48h · No commitment
                   </p>
