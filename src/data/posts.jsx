@@ -64,7 +64,8 @@ export const posts = [
     }
   ],
   "attivo": true
-}{
+},
+  {
   "id": "aim-2026-06-3-en",
   "titolo": "Why Doesn't My Website Appear in Gemini Answers? Practical AI Visibility Guide for Small Businesses",
   "data": "2026-06-29",
