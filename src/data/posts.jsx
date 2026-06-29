@@ -66,68 +66,6 @@ export const posts = [
   "attivo": true
 },
   {
-  "id": "aim-2026-06-3-en",
-  "titolo": "Why Doesn't My Website Appear in Gemini Answers? Practical AI Visibility Guide for Small Businesses",
-  "data": "2026-06-29",
-  "categoria": "GEO/AEO",
-  "sommario": "Discover why Gemini ignores your website and how to improve your AI visibility without a marketing team. Actionable GEO optimization strategies to be found on AI search engines.",
-  "contenuto": [
-    { 
-      "tipo": "paragrafo", 
-      "testo": "Sarah runs a boutique accounting firm in Amsterdam. Her website ranks well on Google, she publishes regular insights, and client reviews are excellent. Yet when a prospect asks Gemini 'Who can help with tax filing for freelancers in Amsterdam?', her business never shows up. The frustration is real: years of building digital visibility, completely invisible to AI search engines." 
-    },
-    { 
-      "tipo": "paragrafo", 
-      "testo": "According to recent research, 81% of small businesses now use AI-based tools, yet most have no idea how to be found by these same tools. AI visibility requires a different approach from traditional SEO, and small businesses without dedicated marketing teams risk being locked out of an increasingly strategic channel." 
-    },
-    { 
-      "tipo": "titoletto", 
-      "testo": "How Gemini actually searches for information" 
-    },
-    { 
-      "tipo": "paragrafo", 
-      "testo": "Unlike Google Search, Gemini doesn't simply index keywords. It analyzes semantic content, prioritizes structured and authoritative sources, and tends to skip pages with fragmented or overly promotional information. To be found on ChatGPT, Perplexity or Gemini requires a GEO optimization strategy combining clear content, structured data, and verifiable authority signals." 
-    },
-    { 
-      "tipo": "paragrafo", 
-      "testo": "A common mistake is assuming good SEO ranking is enough. In reality, AI search engines favor pages that answer specific questions, contain verifiable factual data, and use semantic markup like schema.org. If your site is a static brochure, Gemini will likely skip it in favor of more informative content." 
-    },
-    { 
-      "tipo": "titoletto", 
-      "testo": "Two practical actions you can take today (no marketing team needed)" 
-    },
-    { 
-      "tipo": "paragrafo", 
-      "testo": "First tip: transform at least three pages on your site into answers to real customer questions. Not 'Tax consulting services', but 'How much does tax filing cost for a freelancer?'. Use direct language, include concrete data (prices, timelines, requirements), and cite verifiable sources when possible. This is exactly the type of content Gemini looks for when answering user queries." 
-    },
-    { 
-      "tipo": "paragrafo", 
-      "testo": "Second tip: add schema.org markup at least for your business (LocalBusiness or ProfessionalService), main services, and FAQs. You can use free tools like Google's Schema Markup Generator. While technical implementation may seem complex, WordPress plugins or modules for major CMS platforms simplify the process significantly. This structured signal helps AI search engines understand who you are and what you offer." 
-    },
-    { 
-      "tipo": "titoletto", 
-      "testo": "When you need professional AI visibility assessment" 
-    },
-    { 
-      "tipo": "paragrafo", 
-      "testo": "If you've already implemented these measures but your site continues being ignored by Gemini, there might be a deeper issue: duplicate content, technical conflicts, lack of external citations, or conflicting signals in your online presence. Tools like AI'm by VNS analyze your actual visibility on ChatGPT, Perplexity and Gemini, identifying exactly where and why you're not appearing. Validated on dozens of real cases in Italy and the Netherlands, the system provides concrete reports and prioritized actions, designed specifically for small businesses without dedicated marketing resources." 
-    },
-    { 
-      "tipo": "titoletto", 
-      "testo": "AI visibility isn't a luxury, it's digital survival" 
-    },
-    { 
-      "tipo": "paragrafo", 
-      "testo": "Data from 2025 shows that only 15.7% of small businesses actively use AI technologies, but the trend is growing steadily. Meanwhile, more consumers and businesses are using ChatGPT, Gemini and Perplexity as their first search point, bypassing Google entirely. Being invisible on these channels means losing concrete business opportunities, especially for local services and professionals who rely on digital word-of-mouth." 
-    },
-    { 
-      "tipo": "paragrafo", 
-      "testo": "If your website doesn't appear in Gemini answers, it's not an unsolvable technical problem: it's an optimization gap you can close with targeted actions. Start with the two practical tips from this article, monitor results over the next few weeks, and if needed, consider a professional assessment. Digital visibility in 2026 is also won on AI search engines, and small businesses can't afford to stay out." 
-    }
-  ],
-  "attivo": true
-},
-  {
     id: "geo-audit-score-vs-real-visibility-2026",
     titolo: "83/100 on the GEO audit. Zero mentions on Perplexity. What is actually missing.",
     data: "2026-06-09",
