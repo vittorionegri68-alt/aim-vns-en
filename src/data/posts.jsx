@@ -4,6 +4,100 @@
 
 export const posts = [
 {
+  "id": "aim-2026-07-5-en",
+  "titolo": "What is Schema.org and why small businesses need it for AI visibility",
+  "data": "2026-07-27",
+  "categoria": "GEO/AEO",
+  "sommario": "Schema.org is the shared vocabulary that helps AI search engines like ChatGPT, Perplexity and Gemini understand what your business does. For small businesses without a marketing team, implementing structured data dramatically increases the chances of being found and cited by AI.",
+  "contenuto": [
+    {
+      "tipo": "paragrafo",
+      "testo": "Tom runs a small plumbing business in Amsterdam. His website looks professional, he shares helpful how-to guides, yet when potential customers ask ChatGPT or Perplexity to recommend a local plumber, his name never appears. The problem? AI search engines cannot figure out who he is, what he does, or where he operates, because his site lacks the language machines understand: Schema.org."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Schema.org is a shared vocabulary created by Google, Bing, Yahoo and Yandex that allows websites to label their content with precision. Born in 2011 with 297 classes, it now includes over 811 types to describe people, products, events, organizations, articles and much more. Thanks to structured data, AI search engines can reliably read and interpret information, turning it into contextualized answers and authoritative citations."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "For anyone focused on digital visibility for small businesses, understanding Schema.org has become as essential as knowing SEO and content marketing. The difference? While traditional SEO optimizes to be found on Google, structured data optimizes to be understood and cited by AI. And that is where the new game of AI visibility is won or lost."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "What is Schema.org in simple terms"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Imagine walking into a store where all products are piled up without labels. You can see what is there, but you do not know exactly what each item is, how much it costs, or what it does. Schema.org is the digital equivalent of product labels: a system that tells machines 'this is an article, written by this person, published by this company, on this date'. According to research cited by Amicited, 72.6% of pages ranking first on Google use some type of schema markup, a clear sign that visible businesses have already adopted this practice."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Structured data is inserted into the HTML code of your site, usually in JSON-LD format (the version preferred by Google and AI engines), and remains invisible to human visitors. But for AI search engines like ChatGPT, Perplexity and Gemini, they are fundamental: they allow connecting content to precise entities, verifying information consistency, and citing reliable sources."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Why Schema.org is crucial to be found on ChatGPT and other AI engines"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "When a user asks an AI engine 'Who is the best plumber near me?' or 'How does the 2026 energy tax credit work?', the system does not simply search for keywords. It must interpret context, verify source authority, and build a coherent answer. As Roberto Serra, GEO optimization expert, emphasizes in his June 2026 article, AI engines 'use structured data to increase the likelihood that a site will be used as a source in generated answers'."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Without Schema.org, even the best content risks staying invisible to AI. With Schema.org, you can explicitly say: 'I am a local business, I operate in this city, I offer these services, I have these reviews, these articles are written by verified experts'. This level of clarity is exactly what AI visibility requires."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "The most useful Schema.org types for small businesses"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "You do not need to implement all 811 existing schema types. For small businesses without a marketing team, a few strategic types are enough. Organization and LocalBusiness are essential to define who you are, where you operate, and how to contact you. FAQPage helps AI extract direct answers from your frequently asked questions. Article and BlogPosting communicate editorial authority, especially when linked to an Author markup identifying the writer. Product and Service describe what you sell, with prices, availability, and reviews."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "A practical tip: start with Organization on your homepage and FAQPage on your service pages. These are the two schemas that AI'm by VNS most often finds missing in AI visibility audits for Dutch and Italian SMEs, yet they are also the quickest to implement and deliver immediate impact on citations in AI search engines."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "How to implement Schema.org without being a developer"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "The good news is you do not need to be a programmer. If you use WordPress, plugins like Yoast SEO or RankMath automatically insert basic structured data. For more specific schemas, Google offers the free Structured Data Markup Helper: you select the content type, highlight information on the page, and the tool generates ready-to-use JSON-LD code to paste into your site."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "After implementation, always verify with Google Rich Results Test or Schema Markup Validator. These tools tell you whether the code is correct and which properties are missing. A common mistake is forgetting required properties like 'name' or 'url' in Organization, which makes the markup useless for AI."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Measuring impact on AI visibility: a simple method"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "How can you tell if Schema.org is working? A practical method suggested by AILabsAudit: document the key questions your customers ask (for example 'best accountant Amsterdam' or 'how to choose a tax consultant'). Ask these questions to ChatGPT, Perplexity and Gemini before implementing structured data, saving the answers. Six to eight weeks after implementation, repeat the same questions and compare: are you cited? In what context? With which information?"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "At the same time, monitor rich snippets on Google: if FAQ, review stars, or business details appear directly in search results, it is a sign that structured data is working for traditional SEO too. AI'm by VNS integrates this type of analysis into its service, systematically checking visibility on ChatGPT, Perplexity and Gemini for SMEs that lack internal resources dedicated to monitoring."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Schema.org as the foundation of your GEO strategy"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Schema.org is not the only element of GEO optimization, but it is certainly the technical foundation. Without structured data, even the best content, authentic reviews, and brand authority risk not being correctly interpreted by AI. With Schema.org, you build a direct bridge between your offer and AI search engines, making every piece of information readable, verifiable, and citable."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "For small businesses, this means competing on equal terms with larger companies: you do not need a dedicated marketing team, just a few well-implemented markups and a clear strategy. If you want to discover how your business appears today to AI engines and which structured data to implement first, AI'm by VNS offers an AI visibility audit designed precisely for those who have no time and resources to waste. Visit en.aim-vns.com and start being found by the AI that matters."
+    }
+  ],
+  "attivo": true
+},
+{
   "id": "aim-2026-06-30-en",
   "titolo": "Why Doesn't My Website Appear in Gemini Answers? Practical AI Visibility Guide for Small Businesses",
   "data": "2026-06-29",
