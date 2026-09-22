@@ -16,6 +16,7 @@ export default function Nav() {
     { label: 'Results',     href: '#results' },
     { label: 'FAQ',         href: '#faq' },
     { label: 'Blog',        href: '#blog' },
+    { label: 'Contact', href: '#contact' },
   ]
 
   return (
