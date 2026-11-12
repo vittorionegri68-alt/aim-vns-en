@@ -14,7 +14,7 @@ const packages = [
       'Second check at 30 days to measure improvements',
       'Google Business Profile recommendations',
     ],
-    prezzo: 'From 180 EUR',
+    prezzo: 'From 290 EUR',
     prezzoSub: 'One-off payment · No subscription',
     cta: 'Request your audit',
     highlight: false,
@@ -35,8 +35,8 @@ const packages = [
       'Corrective actions included',
       'Ongoing support by email',
     ],
-    prezzo: 'From 480 EUR',
-    prezzoSub: '+ annual subscription from 500 EUR',
+    prezzo: 'From 800 EUR',
+    prezzoSub: '+ annual subscription from 700 EUR',
     cta: 'Talk about your project',
     highlight: true,
   },
@@ -51,8 +51,8 @@ const packages = [
       'Automated Instagram publishing',
       'Monthly reports instead of quarterly',
     ],
-    prezzo: 'From 580 EUR',
-    prezzoSub: '+ annual subscription from 780 EUR',
+    prezzo: 'From 1,200 EUR',
+    prezzoSub: '+ annual subscription from 1,100 EUR',
     cta: 'Talk about your project',
     highlight: false,
   },
@@ -147,7 +147,7 @@ export default function Services() {
         </div>
         <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '11px', color: '#AAAAAA',
           letterSpacing: '0.1em', textTransform: 'uppercase', marginTop: '1.5rem', textAlign: 'center' }}>
-          All prices exclude VAT · Additional language 100 EUR · Minimum 12 months for Growth and Pro
+          All prices exclude VAT · Additional language 150 EUR · Minimum 12 months for Growth and Pro
         </p>
       </div>
       <style>{`

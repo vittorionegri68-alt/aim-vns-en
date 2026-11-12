@@ -11,16 +11,29 @@ const sitiLive = [
     domain: 'casa-cavour.com',
   },
   {
+    label: 'Bike workshop. 2 languages',
+    title: 'S40 Fietsservice',
+    desc: 'Sports bike workshop in Nijkerk, the Netherlands. Available in Dutch and English, with customer questions and structured data so AI engines can read it.',
+    extra: {
+      score: '34/40',
+      title: 'Technical audit on launch day',
+      lines: ['Classic search 8/10', 'AI engines 9/10', 'Direct answers 8/10', 'AI-ready setup 9/10'],
+      note: 'A starting point, not a finish line. It measures how readable the site is to search and AI engines, not actual visibility, which is built over time.',
+    },
+    url: 'https://s40.nl',
+    domain: 's40.nl · en.s40.nl',
+  },
+  {
     label: 'Holiday apartment. 2 languages',
     title: 'Garibaldina 75',
-    desc: 'Apartment in Romagna. Available in Italian and English, built for AI search visibility.',
+    desc: 'Apartment in Romagna. Available in Italian and English, built for AI search visibility. Linked directly to the Airbnb portal for secure booking.',
     url: 'https://garibaldina-75.romagna-affitti-brevi.it',
     domain: 'garibaldina-75.romagna-affitti-brevi.it',
   },
   {
     label: 'Luxury loft. 2 languages',
     title: 'Samilla',
-    desc: 'Luxury loft in Romagna. Refined design, premium positioning, two languages.',
+    desc: 'Luxury loft in Romagna. Refined design, premium positioning, two languages. Linked directly to the Airbnb portal for secure booking.',
     url: 'https://samilla.romagna-affitti-brevi.it',
     domain: 'samilla.romagna-affitti-brevi.it',
   },
@@ -129,7 +142,7 @@ export default function SitiWeb() {
         </div>
 
         <div className="sitiweb-grid" style={{
-          display: 'grid', gridTemplateColumns: 'repeat(3,1fr)',
+          display: 'grid', gridTemplateColumns: 'repeat(4,1fr)',
           gap: '2px', marginBottom: 'clamp(32px,4vw,48px)',
         }}>
           {sitiLive.map((s, i) => (
@@ -158,6 +171,31 @@ export default function SitiWeb() {
                 fontFamily: "'Inter', sans-serif", fontSize: '13px',
                 color: '#AAAAAA', lineHeight: 1.65, marginBottom: '16px',
               }}>{s.desc}</p>
+
+              {s.extra && (
+                <div style={{
+                  borderTop: '1px solid #1c1c1c', borderLeft: '2px solid #A0782A',
+                  background: '#0a0a0a', padding: '12px 14px', margin: '0 0 16px 0',
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'baseline', gap: '10px', marginBottom: '6px' }}>
+                    <span style={{
+                      fontFamily: "'Oswald', sans-serif", fontWeight: 700,
+                      fontSize: '26px', color: '#A0782A', letterSpacing: '0.02em',
+                    }}>{s.extra.score}</span>
+                    <span style={{
+                      fontFamily: "'Inter', sans-serif", fontWeight: 700,
+                      fontSize: '10px', letterSpacing: '0.14em', textTransform: 'uppercase',
+                      color: '#ffffff',
+                    }}>{s.extra.title}</span>
+                  </div>
+                  <div style={{ fontFamily: "'Inter', sans-serif", fontSize: '12px', color: '#AAAAAA', lineHeight: 1.6, marginBottom: '8px' }}>
+                    {s.extra.lines.join(' · ')}
+                  </div>
+                  <div style={{ fontFamily: "'Inter', sans-serif", fontSize: '12px', color: '#888888', lineHeight: 1.6 }}>
+                    {s.extra.note}
+                  </div>
+                </div>
+              )}
               <div style={{
                 fontFamily: "'Inter', sans-serif", fontWeight: 700,
                 fontSize: '11px', color: '#A0782A', letterSpacing: '0.05em',
@@ -187,8 +225,9 @@ export default function SitiWeb() {
 
       </div>
       <style>{`
-        .sitiweb-grid { grid-template-columns: repeat(3,1fr); }
-        @media (max-width: 900px) { .sitiweb-grid { grid-template-columns: 1fr !important; } }
+        .sitiweb-grid { grid-template-columns: repeat(4,1fr); }
+        @media (max-width: 1100px) { .sitiweb-grid { grid-template-columns: repeat(2,1fr) !important; } }
+        @media (max-width: 700px) { .sitiweb-grid { grid-template-columns: 1fr !important; } }
         @media (max-width: 600px) { .sitiweb-main a { width: 100%; text-align: center; } }
       `}</style>
     </section>
