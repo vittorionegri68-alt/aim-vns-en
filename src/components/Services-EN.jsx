@@ -1,5 +1,5 @@
-﻿// Services-EN.jsx — AI'm by VNS EN
-// v2.0 — copy rewritten for non-technical audience — june 2026
+﻿// Services-EN.jsx, AI'm by VNS EN
+// v3.0, new package ladder (Starter, Complete website, Growth), november 2026
 import { useEffect, useRef } from 'react'
 
 const packages = [
@@ -8,7 +8,7 @@ const packages = [
     tag: 'First step',
     desc: "You have a website but do not know whether ChatGPT can find you? We check your current situation, tell you what is not working and deliver everything needed to fix it. One-off payment, no subscription.",
     incluso: [
-      'Free first analysis — no commitment',
+      'Free first analysis, no commitment',
       'Full check of how AI search engines see you',
       'Optimised technical files ready for your website',
       'Second check at 30 days to measure improvements',
@@ -20,41 +20,42 @@ const packages = [
     highlight: false,
   },
   {
-    nome: 'Growth',
-    tag: 'Main service',
-    desc: "We build your website from scratch, designed to be found by ChatGPT from day one. Then we keep it fresh with new content and show you how results grow, with real numbers. Already have a website? Let us talk: we assess every situation together.",
+    nome: 'Complete website',
+    tag: 'To get started',
+    desc: "We build your website from scratch, designed to be found by ChatGPT from day one, with the Q&A page for your customers' questions and the first blog post. At handover the website is yours, on your own account. One-off payment, no subscription.",
     incluso: [
       'Analysis of your current situation before we start',
       'New website built for AI search engines',
-      'Google Business Profile — setup included',
+      'Q&A page with your customers top 10 real questions',
+      'First blog post',
+      'Google Business Profile: setup included',
+      'Search engine indexing',
       'Technical verification before going live',
-      'Content built around your customers real questions',
-      'Blog post every two weeks, automated',
+      'Preview ready within 3 days of receiving all the material',
+      'Check at 30 days to measure improvements',
+    ],
+    prezzo: 'From 800 EUR',
+    prezzoSub: 'One-off payment · No subscription',
+    cta: 'Talk about your project',
+    highlight: false,
+  },
+  {
+    nome: 'Growth',
+    tag: 'Main service',
+    desc: "Everything in Complete website, plus ongoing management: a new blog post every two weeks, a dashboard with your visibility data always up to date and reports showing how results grow, with real numbers. Your relationship with your customers stays with you.",
+    incluso: [
+      'Everything in Complete website',
+      'Blog post every two weeks, managed by us',
+      'Personal dashboard: your visibility data always live',
       'Monthly reports for the first 3 months, then quarterly',
       'Call with Vittorio to review the data together',
       'Corrective actions included',
       'Ongoing support by email',
     ],
     prezzo: 'From 800 EUR',
-    prezzoSub: '+ annual subscription from 700 EUR',
+    prezzoSub: '+ annual subscription from 900 EUR',
     cta: 'Talk about your project',
     highlight: true,
-  },
-  {
-    nome: 'Pro',
-    tag: 'Maximum visibility',
-    desc: "Everything in Growth, plus a Q&A page on your website, a personal dashboard with your visibility data always up to date, and automated publishing on Instagram. Your relationship with your customers stays with you.",
-    incluso: [
-      'Everything in Growth',
-      'Q&A page with your customers top 10 real questions',
-      'Personal dashboard — your visibility data always live',
-      'Automated Instagram publishing',
-      'Monthly reports instead of quarterly',
-    ],
-    prezzo: 'From 1,200 EUR',
-    prezzoSub: '+ annual subscription from 1,100 EUR',
-    cta: 'Talk about your project',
-    highlight: false,
   },
 ]
 
@@ -112,7 +113,7 @@ export default function Services() {
                   <li key={j} style={{ fontFamily: "'Inter', sans-serif", fontSize: '12px',
                     color: '#AAAAAA', padding: '6px 0', borderBottom: '1px solid #141414',
                     display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <span style={{ color: '#A0782A', fontSize: '10px' }}>—</span>{item}
+                    <span style={{ color: '#A0782A', fontSize: '10px' }}>-</span>{item}
                   </li>
                 ))}
               </ul>
@@ -147,7 +148,15 @@ export default function Services() {
         </div>
         <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '11px', color: '#AAAAAA',
           letterSpacing: '0.1em', textTransform: 'uppercase', marginTop: '1.5rem', textAlign: 'center' }}>
-          All prices exclude VAT · Additional language 150 EUR · Minimum 12 months for Growth and Pro
+          All prices exclude VAT · Additional language 150 EUR · Annual subscription: renew or cancel before the renewal date
+        </p>
+        <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '12px', color: '#AAAAAA',
+          lineHeight: 1.7, margin: '1rem auto 0', maxWidth: '720px', textAlign: 'center' }}>
+          Growth signed together with the website build: 10% off the total of the first year.
+        </p>
+        <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '12px', color: '#AAAAAA',
+          lineHeight: 1.7, margin: '1rem auto 0', maxWidth: '720px', textAlign: 'center' }}>
+          Want to manage the website yourself with Claude? We set everything up on your computer, price on request. Any Claude costs are assessed case by case: in the most common cases the free plan is currently enough.
         </p>
       </div>
       <style>{`

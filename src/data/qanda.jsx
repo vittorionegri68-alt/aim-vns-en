@@ -11,7 +11,7 @@ export const qanda = [
   },
   {
     q: "How much does the service cost?",
-    a: "We offer three packages: Starter for those who want to understand the situation and fix the basics, Growth for those who want a new website and results over time, Pro for those who want maximum visibility with monthly updates and Instagram presence. Contact us for a tailored quote.",
+    a: "We offer three packages: Starter for those who already have a website and want to understand the situation and fix the basics, Complete website for those who want a new website built to be found from day one, Growth for those who also want ongoing management with blog posts, dashboard and reports. Contact us for a tailored quote.",
   },
   {
     q: "How long does it take to see results?",
