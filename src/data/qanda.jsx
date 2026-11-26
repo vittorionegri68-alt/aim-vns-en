@@ -11,7 +11,7 @@ export const qanda = [
   },
   {
     q: "How much does the service cost?",
-    a: "We offer three packages: Starter for those who already have a website and want to understand the situation and fix the basics, Complete website for those who want a new website built to be found from day one, Growth for those who also want ongoing management with blog posts, dashboard and reports. Contact us for a tailored quote.",
+    a: "We offer three packages: Starter for those who already have a website and want to understand the situation and fix the basics, Complete website for those who want a new website built to be found from day one, Growth, an upgrade to Complete website, for those who also want ongoing management with blog posts, dashboard and reports. If Growth is chosen together with Complete website, you get 10% off the total of the first year. Contact us for a tailored quote.",
   },
   {
     q: "How long does it take to see results?",

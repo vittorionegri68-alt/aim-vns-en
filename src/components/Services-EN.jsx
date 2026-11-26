@@ -1,5 +1,5 @@
 ﻿// Services-EN.jsx, AI'm by VNS EN
-// v3.0, new package ladder (Starter, Complete website, Growth), november 2026
+// v3.1, new package ladder (Starter, Complete website, Growth as an upgrade), november 2026
 import { useEffect, useRef } from 'react'
 
 const packages = [
@@ -41,10 +41,9 @@ const packages = [
   },
   {
     nome: 'Growth',
-    tag: 'Main service',
-    desc: "Everything in Complete website, plus ongoing management: a new blog post every two weeks, a dashboard with your visibility data always up to date and reports showing how results grow, with real numbers. Your relationship with your customers stays with you.",
+    tag: 'Upgrade to Complete website',
+    desc: "Give your new website the boost it deserves. Complete website makes you visible to AI search engines; Growth keeps it moving: a new blog post every two weeks, a dashboard with your visibility data always up to date and reports with real numbers. Your relationship with your customers stays with you.",
     incluso: [
-      'Everything in Complete website',
       'Blog post every two weeks, managed by us',
       'Personal dashboard: your visibility data always live',
       'Monthly reports for the first 3 months, then quarterly',
@@ -52,8 +51,9 @@ const packages = [
       'Corrective actions included',
       'Ongoing support by email',
     ],
-    prezzo: 'From 800 EUR',
-    prezzoSub: '+ annual subscription from 900 EUR',
+    prezzo: 'From 900 EUR',
+    prezzoSub: 'Annual subscription · Added to Complete website',
+    nota: 'Together with Complete website: 10% off the total of the first year.',
     cta: 'Talk about your project',
     highlight: true,
   },
@@ -123,6 +123,8 @@ export default function Services() {
                   letterSpacing: '0.02em', lineHeight: 1 }}>{p.prezzo}</div>
                 <div style={{ fontFamily: "'Inter', sans-serif", fontSize: '11px',
                   color: '#AAAAAA', marginTop: '4px', letterSpacing: '0.05em' }}>{p.prezzoSub}</div>
+                {p.nota && <div style={{ fontFamily: "'Inter', sans-serif", fontSize: '11px',
+                  color: '#A0782A', marginTop: '10px', lineHeight: 1.5 }}>{p.nota}</div>}
               </div>
               <a href="https://calendly.com/aim-vns-info/30min" target="_blank" rel="noopener" style={{
                 fontFamily: "'Inter', sans-serif", fontWeight: 700,
@@ -149,10 +151,6 @@ export default function Services() {
         <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '11px', color: '#AAAAAA',
           letterSpacing: '0.1em', textTransform: 'uppercase', marginTop: '1.5rem', textAlign: 'center' }}>
           All prices exclude VAT · Additional language 150 EUR · Annual subscription: renew or cancel before the renewal date
-        </p>
-        <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '12px', color: '#AAAAAA',
-          lineHeight: 1.7, margin: '1rem auto 0', maxWidth: '720px', textAlign: 'center' }}>
-          Growth signed together with the website build: 10% off the total of the first year.
         </p>
         <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '12px', color: '#AAAAAA',
           lineHeight: 1.7, margin: '1rem auto 0', maxWidth: '720px', textAlign: 'center' }}>
