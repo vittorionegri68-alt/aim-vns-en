@@ -4,6 +4,69 @@
 
 export const posts = [
 {
+  "id": "casa-cavour-rab-first-answer-chatgpt-2026",
+  "titolo": "From invisible to the first answer on ChatGPT in six months: the test on our own properties",
+  "data": "2026-09-29",
+  "categoria": "Real cases",
+  "sommario": "The way guests choose where to stay is changing, from Google to the answers ChatGPT gives. We tested our own properties in Romagna with an independent audit. Here are the results, with the numbers.",
+  "contenuto": [
+    {
+      "tipo": "paragrafo",
+      "testo": "When a guest decides where to stay, more and more often they do not open Google: they ask ChatGPT, Perplexity or Gemini \"what is the best holiday apartment in [city]\" and read the answer the AI generates. Only a few names appear in that answer. If yours is not among them, for that guest you do not exist, however good your reviews are on Google or Booking."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "The reason is technical and often overlooked: AI engines do not read OTA listings, category portals or Facebook pages. They read public, structured web content. A property can be full of five star reviews and still stay invisible when the guest asks the AI directly."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "The test on our own properties"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "This is not theory. We applied it to our own two properties in Romagna and measured the result with an independent AI visibility audit on 29 September 2026."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Casa Cavour, a holiday apartment in Bertinoro, is today the first answer on ChatGPT, Perplexity, Google and Claude, with a visibility score of 100 out of 100. On 4 April the same property appeared only on ChatGPT and was absent everywhere else. In exactly six months, from 4 April to 29 September 2026, it went from almost invisible to first everywhere."
+    },
+    {
+      "tipo": "immagine",
+      "testo": "/assets/images/casa-cavour-visibilita-ai.png",
+      "etichetta": "Casa Cavour as the first answer on ChatGPT, Perplexity, Google and Claude, with a visibility score of 100 out of 100 (Geoptie audit, 29 September 2026)"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Romagna Affitti Brevi is a case still in progress, and it is only fair to describe it that way. It is already the first answer on ChatGPT, but on Perplexity it still sits behind the large OTAs and portals. It is the property halfway through the journey: the method works, the work is not finished."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "Why one is first and the other is still climbing"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "The difference is not magic, it is the question. If you ask an AI engine something very generic, such as \"short stay rentals in Romagna\", it almost always answers with Airbnb, Booking and the large portals: that is not where you win. But if the question is specific, the kind a real guest actually asks, such as \"apartment with a private garden near the Bertinoro wineries for a couple\", then what counts is who answered that question with clear, public content."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "The right strategy is not competing on generic queries against Booking. It is owning the precise questions your guests really ask."
+    },
+    {
+      "tipo": "titoletto",
+      "testo": "What you can do today, even on your own"
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "Try it now: ask ChatGPT \"what is the best [your type of property] in [your town]\" and see whether you appear. If you are not there, the problem is not the market, it is your AI visibility. Then publish on your own website the content that today lives only inside Booking or Instagram: descriptions, services, surroundings, answers to the questions guests ask most often. Answer in writing the real questions guests ask before booking, with concrete and verifiable facts. And do not rely on the OTAs alone: on AI engines a listing on a portal does not make you visible, your own public content does."
+    },
+    {
+      "tipo": "paragrafo",
+      "testo": "The way guests find a place to stay has changed. The good news is that you can act on it, and the result can be measured."
+    }
+  ],
+  "attivo": true
+},
+{
   "id": "aim-2026-07-5-en",
   "titolo": "What is Schema.org and why small businesses need it for AI visibility",
   "data": "2026-07-27",
@@ -485,13 +548,13 @@ export const posts = [
     titolo: "Why ChatGPT Can't Find Your Small Business (And How to Change That)",
     data: "2026-05-01",
     categoria: "AI Visibility",
-    sommario: "Most small businesses in Italy and the Netherlands are invisible to AI search engines — not because they don't exist online, but because they're in the wrong place. Here's what ChatGPT, Perplexity and Gemini actually read.",
+    sommario: "Most small businesses in Italy and the Netherlands are invisible to AI search engines, not because they don't exist online, but because they're in the wrong place. Here's what ChatGPT, Perplexity and Gemini actually read.",
     contenuto: [
-      { tipo: "paragrafo", testo: "You have an updated Facebook page, a few Google reviews and maybe a listing on a directory. You're online. Yet when a potential customer asks ChatGPT or Perplexity for the best consultant, restaurant or tradesperson in your area, your name doesn't appear. The problem isn't the quality of your work — it's where the information about you lives." },
+      { tipo: "paragrafo", testo: "You have an updated Facebook page, a few Google reviews and maybe a listing on a directory. You're online. Yet when a potential customer asks ChatGPT or Perplexity for the best consultant, restaurant or tradesperson in your area, your name doesn't appear. The problem isn't the quality of your work, it's where the information about you lives." },
       { tipo: "titoletto", testo: "What AI search engines actually read" },
       { tipo: "paragrafo", testo: "AI search engines like ChatGPT, Perplexity and Gemini don't read Facebook pages. They don't read Instagram profiles, Airbnb listings, Booking.com, Google Business profiles or category portals. They read structured and public web content: websites with schema.org markup, llms.txt files and semantic blog text. If your digital presence is concentrated on social media and portals, you're practically invisible to AI search engines." },
       { tipo: "titoletto", testo: "The advantage of moving now" },
-      { tipo: "paragrafo", testo: "In Italy and the Netherlands the number of small businesses with AI-optimised websites is still very low. Those who position themselves now occupy a space that will become increasingly competitive over the coming years. AI'm by VNS built and validated this system on real cases — Casa Cavour in Bertinoro and RAB Romagna Affitti Brevi — before making it commercially available. Results are measurable: GEO/AEO scores from 0 to 10 per AI search engine, with quarterly analysis of progress." },
+      { tipo: "paragrafo", testo: "In Italy and the Netherlands the number of small businesses with AI-optimised websites is still very low. Those who position themselves now occupy a space that will become increasingly competitive over the coming years. AI'm by VNS built and validated this system on real cases, Casa Cavour in Bertinoro and RAB Romagna Affitti Brevi, before making it commercially available. Results are measurable: GEO/AEO scores from 0 to 10 per AI search engine, with quarterly analysis of progress." },
       { tipo: "titoletto", testo: "The starting point" },
       { tipo: "paragrafo", testo: "Before optimising, you need to measure. AI'm by VNS always begins with a set of 10 questions built together with you for your specific sector and area. We test them on Perplexity and Gemini and record how often you appear and with what quality. As results consolidate, the questions are updated to progressively expand the visibility radius: first the immediate local area, then the wider region. The original local questions are always monitored to ensure foundations remain solid." },
       { tipo: "link", testo: "mailto:info@aim-vns.com", etichetta: "Request a free baseline analysis" },
@@ -503,15 +566,15 @@ export const posts = [
     titolo: "Why Your Facebook Page Is No Longer Enough: AI Visibility for Small Businesses in 2026",
     data: "2026-05-08",
     categoria: "AI Visibility",
-    sommario: "You have 2,000 followers on Facebook, an updated Google page and some reviews on a directory. But when someone asks Perplexity for the best service in your category, you don't appear. Here's why — and how to fix it.",
+    sommario: "You have 2,000 followers on Facebook, an updated Google page and some reviews on a directory. But when someone asks Perplexity for the best service in your category, you don't appear. Here's why, and how to fix it.",
     contenuto: [
-      { tipo: "paragrafo", testo: "It's a situation that repeats itself every week: established businesses, with years of work and positive reviews, that online seem to barely exist. Not because they lack a digital presence — they often have a well-maintained one. The problem is where they are: on platforms that AI search engines don't read." },
+      { tipo: "paragrafo", testo: "It's a situation that repeats itself every week: established businesses, with years of work and positive reviews, that online seem to barely exist. Not because they lack a digital presence, they often have a well-maintained one. The problem is where they are: on platforms that AI search engines don't read." },
       { tipo: "titoletto", testo: "The paradigm shift: from Google to ChatGPT" },
-      { tipo: "paragrafo", testo: "For years the mantra of local digital marketing was: be on Google. Create a Google Business profile, collect reviews, do some SEO. It worked. Today it's no longer enough — it still serves Google Search, but it leaves a rapidly growing channel uncovered: AI search engine queries. When someone asks Perplexity for the best consultant in Amsterdam, they don't get ten links: they get two or three names with an explanation. If you're not among those names, you've lost the customer before they clicked on anything." },
+      { tipo: "paragrafo", testo: "For years the mantra of local digital marketing was: be on Google. Create a Google Business profile, collect reviews, do some SEO. It worked. Today it's no longer enough, it still serves Google Search, but it leaves a rapidly growing channel uncovered: AI search engine queries. When someone asks Perplexity for the best consultant in Amsterdam, they don't get ten links: they get two or three names with an explanation. If you're not among those names, you've lost the customer before they clicked on anything." },
       { tipo: "titoletto", testo: "What AI search engines see and what they don't" },
       { tipo: "paragrafo", testo: "AI search engines read: websites with public and structured HTML, schema.org markup, llms.txt and ai.txt files, blogs with textual and semantic content, encyclopaedic sources. They don't read: Facebook and Instagram posts, Google Business profiles, TripAdvisor, Booking.com, Airbnb listings. The consequence is counterintuitive: a business with 500 Google Maps reviews and no optimised website is less visible on ChatGPT than a new business with a well-structured website and three blog posts." },
       { tipo: "titoletto", testo: "The competitive advantage of small businesses" },
-      { tipo: "paragrafo", testo: "Small businesses that move now have a genuine advantage. Most competitors are still focused on social media and portals. AI'm by VNS validated this system on Casa Cavour (Bertinoro) and RAB — Romagna Affitti Brevi: it's possible to go from zero citations to a stable presence on Perplexity and Gemini in 4 to 8 weeks with the right technical structure." },
+      { tipo: "paragrafo", testo: "Small businesses that move now have a genuine advantage. Most competitors are still focused on social media and portals. AI'm by VNS validated this system on Casa Cavour (Bertinoro) and RAB, Romagna Affitti Brevi: it's possible to go from zero citations to a stable presence on Perplexity and Gemini in 4 to 8 weeks with the right technical structure." },
       { tipo: "link", testo: "mailto:info@aim-vns.com", etichetta: "Find out how you rank today on AI search engines" },
     ],
     attivo: true,
@@ -525,11 +588,11 @@ export const posts = [
     contenuto: [
       { tipo: "paragrafo", testo: "AI visibility depends on the structure of your website. The most important answer is a single word: schema.org." },
       { tipo: "titoletto", testo: "What is schema.org?" },
-      { tipo: "paragrafo", testo: "Schema.org is a shared vocabulary — developed by Google, Microsoft, Yahoo and Yandex — that allows semantic metadata to be added to any web page. In practice, it's the way you tell AI search engines: this website belongs to a business, it's called this, it's located at this address, it offers these services. Without this markup, your website is a block of text that AI bots interpret with more difficulty and less precision." },
+      { tipo: "paragrafo", testo: "Schema.org is a shared vocabulary, developed by Google, Microsoft, Yahoo and Yandex, that allows semantic metadata to be added to any web page. In practice, it's the way you tell AI search engines: this website belongs to a business, it's called this, it's located at this address, it offers these services. Without this markup, your website is a block of text that AI bots interpret with more difficulty and less precision." },
       { tipo: "titoletto", testo: "The most important schema types for small businesses" },
       { tipo: "paragrafo", testo: "For a small business, the most relevant schema types are: Organization or ProfessionalService for the business itself, LocalBusiness for businesses with a physical location, Person for the owner, FAQPage for questions and answers, and BreadcrumbList for the navigation structure. AI'm by VNS always implements a full set for every client, validated with Google's Rich Results Test before going live." },
       { tipo: "titoletto", testo: "FAQPage: the link between schema and AI visibility" },
-      { tipo: "paragrafo", testo: "The FAQPage schema is the most direct connection between technical structure and visibility on AI search engines. It contains exactly what AI search engines look for: questions and answers in machine-readable format. That's why AI'm by VNS builds with every client a set of 10 questions specific to their sector and area — used consistently in the FAQPage schema, the Q&A section of the website and the blog. As results consolidate, the questions are updated to expand the visibility radius, while the original local questions are always monitored to ensure foundations remain solid." },
+      { tipo: "paragrafo", testo: "The FAQPage schema is the most direct connection between technical structure and visibility on AI search engines. It contains exactly what AI search engines look for: questions and answers in machine-readable format. That's why AI'm by VNS builds with every client a set of 10 questions specific to their sector and area, used consistently in the FAQPage schema, the Q&A section of the website and the blog. As results consolidate, the questions are updated to expand the visibility radius, while the original local questions are always monitored to ensure foundations remain solid." },
       { tipo: "link", testo: "mailto:info@aim-vns.com", etichetta: "Request a free schema.org analysis" },
     ],
     attivo: true,
